@@ -1,6 +1,6 @@
 ---
 lang:   EN
-title:  Boys are Different From Girls
+title:  Apples are Different From Grapes
 answer: \[\]
 ok:     Great, that's an empty list
 error:  
