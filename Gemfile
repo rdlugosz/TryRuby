@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-gem "opal", "~> 0.7.0"
+gem "opal"
 gem "opal-jquery"
 gem 'opal-rspec'
 
-gem "middleman", ">= 3.3.7"
-gem "middleman-livereload", ">= 3.1.0"
+gem "middleman"
+gem "middleman-livereload"
 gem "middleman-syntax"
 gem "middleman-sprockets"
-gem "middleman-blog"
+gem "middleman-blog", ">= 4.0.0"
 gem "redcarpet"
 gem 'therubyracer', :platforms => :ruby
