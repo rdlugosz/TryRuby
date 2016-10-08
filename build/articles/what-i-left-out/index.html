@@ -76,7 +76,6 @@ else
   do_thing3
 end
 </code></pre>
-
 <h3>Case</h3>
 
 <p>A variation on the if-elsif-else theme. Useful when you have to test a variable against a lot
@@ -93,7 +92,6 @@ else
   do_thing4
 end
 </code></pre>
-
 <p>And there is an alternate form:</p>
 <pre class="highlight plaintext"><code># Case example 2
 case
@@ -107,7 +105,6 @@ else
   do_thing4
 end
 </code></pre>
-
 <h3>Regular expressions</h3>
 
 <p>Sometimes you have a string and you want to test if that string contains some text. For instance if
@@ -122,7 +119,6 @@ first time, it is like a monkey has been randomly bashing away on a keyboard.</p
 <p>The regex for the example mentioned above is relatively simple:</p>
 <pre class="highlight plaintext"><code>my_string.match( /^user_(\d+)/ )
 </code></pre>
-
 <p>This will return <strong>nil</strong> if my_string didn&rsquo;t conform to the regex, or a matchdata object if it did.
 In the last case it will also give you the 123 part as the matched data.</p>
 
@@ -149,7 +145,6 @@ puts s.class
 puts s.methods
 puts s.respond_to?(:match)
 </code></pre>
-
 <h3>Error handling</h3>
 
 <p>Reality is that all programs can run into errors. Errors that only raise their ugly heads when your 
@@ -164,13 +159,11 @@ rescue =&gt; e
   puts "Error = #{e}"
 end
 </code></pre>
-
 <p>And sometimes you might even want your program to raise an error (like when the user did something really
 stupid).</p>
 <pre class="highlight plaintext"><code># Raise
 raise "Yo dude seriously ? You can't enter zero for a divisor" if divisor == 0
 </code></pre>
-
 <h3>IO</h3>
 
 <p>You will often need to read or write diskfiles. That is easy in Ruby. For instance reading can be done with
@@ -178,7 +171,6 @@ raise "Yo dude seriously ? You can't enter zero for a divisor" if divisor == 0
 <pre class="highlight plaintext"><code># Read a file
 file_contents = IO.Read("my_file")
 </code></pre>
-
 <p>See the documentation for more info.</p>
 
 <h3>Spaceship operator</h3>
@@ -188,7 +180,6 @@ on whether the left hand side is smaller, equal to or bigger than the right hand
 <pre class="highlight plaintext"><code>  # Spaceship operator
   'a' &lt;=&gt; 'b'   =&gt; Returns -1
 </code></pre>
-
 <h3>Class inheritance</h3>
 
 <p>When you are coding objects (classes) that model some real life situation, you will often encounter
@@ -209,7 +200,6 @@ class Chicken &lt; Animal
   #@number_of_legs = 2
 end
 </code></pre>
-
 <p>The Cow and Chicken classes can use all attributes and methods that are defined for Animal.</p>
 
 <p>A course or a book on <em>Object Oriented programming</em> can teach you all about this import concept.</p>
@@ -243,7 +233,6 @@ place the common code in a module and <strong>mix that module into your class</s
 
   Blurbalizer.new.methods
 </code></pre>
-
 <p>As long as you define method each, the Enumerable mixin now provides a lot of methods for free, like
 map and sort.</p>
 

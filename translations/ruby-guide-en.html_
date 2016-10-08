@@ -14,7 +14,7 @@
         <li><code>5 - 12</code></li>
         <li><code>40 / 4</code></li></ul>
     <p>Sure, computers are handy and fast for math. Let's move on. Want to see your name reversed?
-       Type your first name in quotes like this: <code class="cmd">"Jimmy"</code></p>
+       Type your first name in quotes like this: <code class="cmd">"Jenny"</code></p>
     <div class="answer">"(\w+)"</div>
 </div>
 <div class="stretcher">
@@ -23,7 +23,7 @@
     is a set of characters the computer can process.</p>
     <p>Imagine the letters are on a string of
     laundry line and the quotes are clothespins holding the ends. The quotes mark the beginning and end.</p>
-    <p>To reverse your name, type: <code class="cmd">"Jimmy".reverse</code> (<em>Don't forget the dot!</em>)</p>
+    <p>To reverse your name, type: <code class="cmd">"Jenny".reverse</code> (<em>Don't forget the dot!</em>)</p>
     <div class="answer">"(\w+)"</div>
 </div>
 <div class="stretcher">
@@ -31,7 +31,7 @@
     <p>You have used the <code>reverse</code> <strong>method</strong> on your name! By enclosing your name in
     quotes, you made a string. Then you called the <code>reverse</code> method, which works on strings to flip
     all the letters backwards.</p>
-    <p>Now, let's see how many letters are in your name: <code class="cmd">"Jimmy".length</code></p>
+    <p>Now, let's see how many letters are in your name: <code class="cmd">"Jenny".length</code></p>
     <div class="answer">\d+</div>
 </div>
 <div class="stretcher">
@@ -39,7 +39,7 @@
     <p>Now, I'm sure by now you're wondering what any of this is good for. Well, I'm sure you've been to
        a website that screamed, <em>Hey, your password is too short!</em> See, some programs
        use this simple code.</p>
-    <p>Watch this. Let's multiply your name by 5. <code class="cmd">"Jimmy" * 5</code></p>
+    <p>Watch this. Let's multiply your name by 5. <code class="cmd">"Jenny" * 5</code></p>
     <div class="answer">"(\w+)"</div>
 </div>
 <div class="stretcher chapmark">

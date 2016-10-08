@@ -15,7 +15,7 @@
         <li><code>5 - 12</code></li>
         <li><code>40 / 4</code></li></ul>
     <p>Seguro, las computadoras son habilidosas y rápidas con las matemáticas. Sigamos... ¿Quieres ver tu nombre al revés?
-       Escribe tu primer nombre entre comillas así: <code class="cmd">"Jimmy"</code></p>
+       Escribe tu primer nombre entre comillas así: <code class="cmd">"Jenny"</code></p>
     <div class="answer">"(\w+)"</div>
 </div>
 <div class="stretcher">
@@ -24,7 +24,7 @@
     es un juego de caracteres que la computadora puede procesar.</p>
     <p>Imagina que las letras están en una cuerda donde
     se cuelga la ropa y las comillas son los broches que sostienen los bordes. Las comillas marcan el comienzo y el final.</p>
-    <p>Para invertir tu nombre, escribe: <code class="cmd">"Jimmy".reverse</code> (<em>¡No olvides el punto!</em>)</p>
+    <p>Para invertir tu nombre, escribe: <code class="cmd">"Jenny".reverse</code> (<em>¡No olvides el punto!</em>)</p>
     <div class="answer">"(\w+)"</div>
 </div>
 <div class="stretcher">
@@ -32,7 +32,7 @@
     <p>¡Has usado el <strong>método</strong> <code>reverse</code> sobre tu nombre! Poniendo tu nombre entre comillas,
     hiciste un string. Luego llamaste al método <code>reverse</code>, que funciona sobre un string cambiando
     todas las letras de atrás para adelante.</p>
-    <p>Ahora, vamos a ver cuantas letras tiene tu nombre: <code class="cmd">"Jimmy".length</code></p>
+    <p>Ahora, vamos a ver cuantas letras tiene tu nombre: <code class="cmd">"Jenny".length</code></p>
     <div class="answer">\d+</div>
 </div>
 <div class="stretcher">
@@ -40,7 +40,7 @@
     <p>Ahora, estoy seguro que te estarás preguntando para que sirve todo esto. Bueno, estoy seguro que habrás estado en alguna
        pagina web donde te gritaron, <em>¡Hey, tu password es muy corto!</em> Ves, algunos programas
            usan este código tan simple.</p>
-    <p>Mira esto. Vamos a multiplicar tu nombre por 5. <code class="cmd">"Jimmy" * 5</code></p>
+    <p>Mira esto. Vamos a multiplicar tu nombre por 5. <code class="cmd">"Jenny" * 5</code></p>
     <div class="answer">"(\w+)"</div>
 </div>
 <div class="stretcher chapmark">

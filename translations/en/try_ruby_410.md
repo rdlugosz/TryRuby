@@ -12,10 +12,10 @@ What is left to improve? We could print the results a bit prettier. Like add the
 and align titles and years.
 
 This means printing several values on one line. Ruby has a neat way of doing
-that. It is just like printing a string like: __puts "Hi, my name is Jimmy"__.
-But instead of the literal value _Jimmy_ we use the value of a variable.
+that. It is just like printing a string like: __puts "Hi, my name is Jenny"__.
+But instead of the literal value _Jenny_ we use the value of a variable.
 
-First replace __Jimmy__ with __#{}__. If Ruby sees a hash symbol # followed by a curly brace {
+First replace __Jenny__ with __#{}__. If Ruby sees a hash symbol # followed by a curly brace {
 it looks for a variable between the first brace and the following closing brace }.
 So we can use this: __"Hi, my name is \#{name}"__.
 
